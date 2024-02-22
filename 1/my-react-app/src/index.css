@@ -1,0 +1,34 @@
+:root {
+  padding: 0;
+  margin: 0;
+  background-color: lightgray;
+}
+
+.counter-container {
+  text-align: center;
+}
+
+.count-display {
+  font-size: 3em;
+}
+
+.counter-container button {
+  cursor: pointer;
+  width: 150px;
+  background-color: aqua;
+  margin: 0 5px;
+  transition: 1s;
+}
+
+.counter-container button:hover {
+  background-color: red;
+}
+
+.footer {
+  left: 0;
+  width: 100vw;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+}
+
